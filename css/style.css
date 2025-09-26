@@ -1,0 +1,14 @@
+.logo {
+    height: 75px;
+    background: yellow;
+    width: 75px; /*
+Specifies the width of the content area, padding area or border area (depending on 'box-sizing') of certain boxes.
+    border-radius: 75px;
+} */
+    border-radius: 75px;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+}
+    
