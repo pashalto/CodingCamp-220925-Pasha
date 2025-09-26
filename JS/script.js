@@ -10,12 +10,15 @@ function welcomeMessage() {
 }
 
 function validateForm() {
-    let name = document.forms["contactForm"]["name"].value;
-    let email = document.forms["contactForm"]["email"].value;
-    let message = document.forms["contactForm"]["message"].value;
+  let name = document.getElementById("name").value;
+  let email = document.getElementById("email").value;
+  let message = document.getElementById("message").value;
 
-    console.log(name, email, message);
-    if (name === "" || email === "" || message === "") {
-        alert("All fields must be filled out");
-        return false;
-    }
+  if (!name || !email || !message) {
+    alert("Please fill out all fields.");
+    return false;
+  }
+
+  alert("Form submitted successfully!");
+  return true;
+}

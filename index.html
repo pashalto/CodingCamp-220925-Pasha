@@ -57,12 +57,13 @@
             <h1 class="text-5xl font-bold">Message Us</h1>
             <form class="flex font-bold flex-col gap-4 w1">
                 <label>Name</label>
-                <input type="text" placeholder="Your Name" class="border border-black-1000 p-4 rounded">
+                <input type="text" id="name" placeholder="Your Name" class="border border-black-1000 p-4 rounded" required>
                 <label>Email</label>
-                <input type="email" placeholder="Your Email" class="border border-black-1000 p-4 rounded">
+                <input type="email" id="email" placeholder="Your Email" class="border border-black-1000 p-4 rounded" required>
                 <label>Message</label>
-                <textarea placeholder="Your Message" class="border border-black-1000 p-4 rounded"></textarea>
-                <button type="submit" onclick="validateForm()" class="bg-blue-500 text-white p-4 rounded hover:bg-blue-600">Send Message</button>
+                <textarea placeholder="Your Message" id="message" class="border border-black-1000 p-4 rounded" required></textarea>
+                <button type="button" onclick="validateForm()" class="bg-blue-500 text-white p-4 rounded hover:bg-blue-600">Send</button>
+                </form>
     </main>
 
     <!--Footer Content-->
@@ -70,7 +71,7 @@
         <p>&copy; 2025 My Website. All rights reserved.</p>
 
         <!--JavaScript External-->
-        <script src="JS/script.js"></script>
+        <script src="js/script.js"></script>
     
     
 </body>
