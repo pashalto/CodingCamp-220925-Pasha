@@ -36,7 +36,7 @@
     <main>
         <!--Home Section-->
         <section id="home" class="h-screen flex flex-col justify-center items-center gap-6">
-            <h1 class="text-5xl font-bold">Welcome to My Website</h1>
+            <h1 class="text-5xl font-bold">Welcome <span id="username"></span> to My portofolio</h1>
             <p class="text-lg">This is a simple website created using HTML and CSS.</p>
         </section>
         <hr>
@@ -62,12 +62,15 @@
                 <input type="email" placeholder="Your Email" class="border border-black-1000 p-4 rounded">
                 <label>Message</label>
                 <textarea placeholder="Your Message" class="border border-black-1000 p-4 rounded"></textarea>
-                <button type="submit" class="bg-blue-500 text-white p-4 rounded hover:bg-blue-600">Send Message</button>
+                <button type="submit" onclick="validateForm()" class="bg-blue-500 text-white p-4 rounded hover:bg-blue-600">Send Message</button>
     </main>
 
     <!--Footer Content-->
     <footer class="bg-gray-800 text-white text-center p-4">
         <p>&copy; 2025 My Website. All rights reserved.</p>
+
+        <!--JavaScript External-->
+        <script src="JS/script.js"></script>
     
     
 </body>
