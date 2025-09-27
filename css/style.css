@@ -6,6 +6,9 @@ Specifies the width of the content area, padding area or border area (depending 
     border-radius: 75px;
 } */
     border-radius: 75px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG1XyuHqcme6LQCwF29G7vg8sYuDLPgzM_kw&s);
+    background-size: cover;
+    background-position: center;
 }
 .main-header{
     display: flex;
